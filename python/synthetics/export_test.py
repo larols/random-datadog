@@ -30,7 +30,7 @@ def export_test(test_id, output_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python export_synthetic_test.py <test_id> <output_file.json>")
+        print("Usage: python export_test.py <test_id> <output_file.json>")
         sys.exit(1)
 
     test_id = sys.argv[1]

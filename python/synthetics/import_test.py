@@ -33,7 +33,7 @@ def import_test(input_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python import_synthetic_test.py <input_file.json>")
+        print("Usage: python import_test.py <input_file.json>")
         sys.exit(1)
 
     input_file = sys.argv[1]
